@@ -3,23 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Site pessoal - Douglas Walace</title>
+        <link ret="stylesheet" href="Style.css">
     </head>
     <body>
         <header>
-            <h1>Oração de São Bento</h1>
+            <img src="sddefault.jpg" alt="medalha de são bento" alt="Image" height="200" width="320" class="photo"> <!-- coloquei o nome direto pois a imagem ja estava no-->
+            <h1 id="title">Oração de São Bento</h1>
         </header>
-        <img src="sddefault.jpg" alt="medalha de são bento" alt="Image" height="400" width="530"> <!-- coloquei o nome direto pois a imagem ja estava no-->
         <section>
             <header>
-                <h2>Posts</h2>                               
+                <h2 class="subtitle">Posts</h2>                               
             </header>
-            <article>
+            <article class="post">
                 <header>        
-                    <h3>Post #3</h3>
-                    <img src="formacao_1600x1200-novena-de-sao-bento.jpg" alt="Image" height="400" width="530">
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="formacao_1600x1200-novena-de-sao-bento.jpg" alt="Image" height="400" width="530" class="post_image">
                 </header>
             </article>
-            <p>
+            <p class="post_content">
                 <a href="https://www.padrereginaldomanzotti.org.br/novena/de-sao-bento/" target="_blank">
                      <!-- (href) para cria'r um link. (_blank) para abrir o link em outra página-->
                     
@@ -52,6 +53,17 @@
                 
             </p>
         </section>
-        <footer></footer>
+        <footer>
+            <ul class="contact_list"></ul>
+            <ul>
+                <li>
+                    <a href="mailto: douglas.walace1@gmail.com" target="_blanck">douglas.walace@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/douglas-walace-de-oliveira-508b4956/" target="_blanck">linkedin</a>
+                </li>
+            </ul>
+        </footer>
     </body>
 </html>
+
